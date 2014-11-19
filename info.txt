@@ -1,0 +1,42 @@
+Database site:
+http://www.nhl.com/ice/playerstats.htm
+
+Database site with Query:
+http://www.nhl.com/ice/playerstats.htm?fetchKey=20152ALLSASALL&viewName=summary&sort=points&pg=1
+
+Query decomposition:
+fetchKey=20152ALLSASALL
+viewName=summary
+sort=points
+pg=1
+
+fetchKey=
+2015 2 ALL S A S ALL
+	SEASON [1997,2015]
+	GAME TYPE (2:Reglar Season) (3:Playoffs)
+
+viewname=
+summary
+assists
+bios
+divisionScoring
+faceOffPercentage
+faceOffPercentageAll
+goals
+homeScoring
+penalties
+plusMinus
+points
+rtssPlayerStats
+roadScoring
+shooting
+shootingAll
+shootouts
+scoringLeaders
+timeOnIce
+
+sort=
+player.bioFirstNameLastName
+
+pg=
+[1,50]
